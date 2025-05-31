@@ -1,0 +1,133 @@
+/*
+
+.about_div {
+    background-color: #f6f6f6;
+}
+
+.skill_dev {
+    padding-top: 20px;
+}
+
+.para_text {
+    font-family: serif;
+    font-size: 15px;
+    font-weight: 300px;
+    word-spacing: 2px;
+}
+
+.profile_title {
+    margin-bottom: 20px;
+    border-bottom: 4px solid #A020F0;
+    border-bottom-width: thick;
+    width: 15px;
+}
+
+.profile_title h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+}
+
+.profile_pic img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    height: auto;
+    width: 80%;
+    margin: 0 0px 0 65px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 900px) {
+    .profile_pic img {
+        border-radius: 1rem;
+        width: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 2px;
+    }
+}
+
+*/
+
+
+
+
+
+.skills_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 3rem;
+    width: 100%;
+    background-color: #f6f6f6;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.skills_left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills_left img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 1rem;
+    object-fit: contain;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills_right {
+    flex: 1;
+    font-family: sans-serif;
+    max-width: 600px;
+}
+
+.skills_right h1 {
+    font-size: 36px;
+    font-weight: 800;
+    border-bottom: 4px solid #A020F0;
+    margin-bottom: 1rem;
+    display: inline-block;
+    color: #333;
+}
+
+.skills_right p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.skills_list > div {
+    margin-bottom: 1rem;
+}
+
+.skills_list p {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .skills_section {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .skills_right h1 {
+        font-size: 28px;
+    }
+
+    .skills_left img {
+        max-width: 90%;
+    }
+}

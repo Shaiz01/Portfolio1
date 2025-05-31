@@ -1,0 +1,84 @@
+/*
+.project_title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 4px solid #A020F0;
+    border-bottom-width: thick;
+    width: 15px;
+}
+
+.image_section{
+    width: 80%;
+}
+
+.project_title h1 {
+    font-size: 30px;
+    font-weight: 600;
+    columns: #333;
+}
+
+.para_text {
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 300;
+    word-spacing: 2px;
+}
+
+.accordion_section {
+    --slds-c-accordion-heading-text-color: #333
+    --slds-c-accordion-heading-font-size: 1.2rem;
+}
+
+*/
+
+
+
+.section-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.project_title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 4px solid #A020F0;
+    width: fit-content;
+}
+
+.image_section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_section img {
+    width: 100%;
+    height: auto;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project_title h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+}
+
+.para_text {
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 300;
+    word-spacing: 2px;
+}
+
+.accordion_section {
+    --slds-c-accordion-heading-text-color: #333;
+    --slds-c-accordion-heading-font-size: 1.2rem;
+}

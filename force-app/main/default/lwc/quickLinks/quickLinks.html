@@ -1,0 +1,38 @@
+<!--
+
+<template>
+    <div class="quicklinks slds-p-top_large">
+        <h1 class="slds-text-align_center">Quick Links</h1>
+    </div>
+    <div class="slds-grid slds-wrap">
+        <template for:each={data} for:item="quickLinks">
+        <div 
+        onclick={handleClick} data-id={quickLinks.id}
+        class="slds-col image_section slds-align_absolute-center slds_size_12-of_12 slds-medium-size_4-of-12 slds-large-size_4-of-12" key={quickLinks.id}>
+            <img src={quickLinks.image} alt={quickLinks.text}/>
+            <div class="overlay"></div>
+            <div class="title_class slds-text-align_center">{quickLinks.text}</div>
+        </div>
+        </template>
+    </div>
+</template>
+
+-->
+
+
+
+<template>
+    <div class="quicklinks_section">
+        <h1 class="quicklinks_heading">Quick Links</h1>
+
+        <div class="quicklinks_grid">
+            <template for:each={data} for:item="quickLinks">
+                <div class="quicklink_card" key={quickLinks.id} onclick={handleClick} data-id={quickLinks.id}>
+                    <img src={quickLinks.image} alt={quickLinks.text} />
+                    <div class="overlay"></div>
+                    <div class="title">{quickLinks.text}</div>
+                </div>
+            </template>
+        </div>
+    </div>
+</template>
